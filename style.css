@@ -1,0 +1,50 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar-wrapper {
+    background: #42A8C0;;
+    color: #fff;
+    margin: 0 auto;
+    min-width: 350px;
+}
+
+.profiler-container{ 
+    width: 250px;
+    height: 250px;
+    background-image: url(./image/profiler-photo.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 35px auto;
+}
+
+.contact-items{
+    list-style: none;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.contact-social{
+    text-decoration: none;
+    color: #fff;
+}
+.location {
+    display: inline-block;
+}
+
+
+
+

@@ -5,53 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
       <div class="sidebar-wrapper">
-        <div class="profiler-container">
-          <img
-            class="profiler-img"
-            src="image/profiler-photo.jpg"
-            alt="Profiler photo"
-          />
-        </div>
+        <div class="profiler-container"></div>
         <div class="contact-container">
           <ul class="contact-items">
             <li class="contact-item">
-              <a class="email" href="mail to: alexsandra.serkes@gmail.com"
+              <i class="fa-regular fa-envelope icon"></i>
+              <a
+                class="contact-social"
+                href="mail to: alexsandra.serkes@gmail.com"
                 >alexsandra.serkes@gmail.com</a
               >
             </li>
             <li class="contact-item">
-              <a class="phone" href="tel: +380684147299">+38(068)414-72-99</a>
+              <i class="fa fa-phone icon"></i>
+              <a class="contact-social" href="tel: +380684147299"
+                >+38(068)414-72-99</a
+              >
             </li>
             <li class="contact-item">
+              <i class="fa-brands fa-github icon"></i>
               <a
-                class="github"
+                class="contact-social"
                 href="https://github.com/OlSerkes"
                 target="_blank"
                 >GitHub</a
               >
             </li>
             <li class="contact-item">
+              <i class="fa-brands fa-linkedin icon"></i>
               <a
-                class="linkedin"
+                class="contact-social"
                 href="https://www.linkedin.com/in/oleksandra-serkes-65580620a/"
                 target="_blank"
                 >LinkedIn</a
               >
             </li>
             <li class="contact-item">
-              <a
-                class="codwars"
-                href="https://www.codewars.com/users/OlSerkes"
-                target="_blank"
-                >CodeWars</a
-              >
-            </li>
-            <li class="contact-item">
-              <p class="location">Dnipro region</p>
+              <i class="fa-solid fa-location-dot icon"></i>
+              <p class="contact-social location">Dnipro region</p>
             </li>
           </ul>
         </div>
@@ -278,5 +284,11 @@
         </section>
       </div>
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
