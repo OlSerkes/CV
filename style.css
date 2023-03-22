@@ -3,12 +3,16 @@ body{
     margin: auto;
 }
 
+span {
+    font-weight: 700;
+}
+
 .wrapper {
     display: flex;
 }
 
 .sidebar-wrapper {
-    background: #42A8C0;;
+    background: #42A8C0;
     color: #fff;
     margin: 0 auto;
     min-width: 350px;
@@ -45,6 +49,62 @@ body{
     display: inline-block;
 }
 
+.skills-container {
+    margin: 0px 32px;
+}
+
+.title {
+    margin: 25px 0px;
+}
+
+.main-wrapper {
+    margin: 45px;
+}
+
+.profiler-name {
+    color: #045365;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.profiler-main-title {
+    color: #045365;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.profiler-title {
+    color: #42A8C0;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.profiler-info{
+    margin-bottom: 25px;
+}
+
+.skills-list {
+    margin-bottom: 25px;
+}
+
+.profiler-experience {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.profiler-items {
+    display: flex;
+}
+
+.vertical-line {
+    border: 1px solid #47494c;    
+    height: 26px;
+    margin: 0 15px;
+}
+
+.skill-info {
+    margin-bottom: 0;
+}
 
 
 
