@@ -15,7 +15,7 @@ span {
     background: #42A8C0;
     color: #fff;
     margin: 0 auto;
-    min-width: 350px;
+    max-width: 350px;
 }
 
 .profiler-container{ 
@@ -26,7 +26,11 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
-    margin: 35px auto;
+    margin: 55px;
+}
+
+.contact-container{
+    margin-bottom: 55px;
 }
 
 .contact-items{
@@ -79,15 +83,19 @@ span {
     margin-bottom: 30px;
 }
 
+.profiler-list{
+    margin-bottom: 25px;
+}
+
 .profiler-info{
     margin-bottom: 25px;
 }
 
 .skills-list {
-    margin-bottom: 25px;
+    margin-bottom: 55px;
 }
 
-.profiler-experience {
+.job-title {
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -99,12 +107,110 @@ span {
 .vertical-line {
     border: 1px solid #47494c;    
     height: 26px;
-    margin: 0 15px;
+    margin: 0 7px;
 }
 
 .skill-info {
     margin-bottom: 0;
 }
 
+.education-title {
+    color: #343435;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px){
+    .sidebar-wrapper{
+        width: 300px;
+    }
+    .profiler-container{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 852px){
+    .profiler-items{
+        flex-direction: column;
+    }
+    .vertical-line{
+        height: 1px;
+        margin: 0;
+    }
+    .profiler-company{
+        margin-bottom: 0;
+    }
+    .job-title {
+        margin-bottom: 15px;
+    }
+    .education-title {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 765px){
+    .profiler-name{
+        font-size: 28px;
+    }
+    .profiler-main-title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 620px){
+    .sidebar-wrapper {
+        width: 200px;
+    }
+    .profiler-container{
+        width: 150px;
+        height: 150px;
+        margin: 25px auto;
+    }
+    .contact-items {
+        padding-left: 15px;
+    }
+    .skills-container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .icon {
+        margin-right: 3px;
+    }
+    .contact-social{
+        font-size: 10px;
+    }
+    .main-wrapper{
+        margin: 20px;
+    }
+    .profiler-name{
+        font-size: 20px;
+    }
+    .profiler-main-title {
+        font-size: 15px;
+    }
+    .profiler-title{
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        font-size: 12px;
+    }
+    .main-wrapper{
+        margin: 15px;
+    }
+}
+
+@media (max-width: 345px){
+    body{
+        font-size: 10px;
+    }
+    .main-wrapper{
+        margin: 10px;
+    }
+}
 
 
